@@ -1,0 +1,10 @@
+.x = input()
+x = x.split()
+for i in range(7):
+    x[i] = int(x[i])
+x.sort()
+a = x[0]
+b = x[1]
+abc = x[6]
+c = abc - a - b
+print(a,b,c)
